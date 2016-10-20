@@ -22,8 +22,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         super.viewDidLoad()
         
         self.spinButton.accessibilityLabel = Constants.SPIN_BUTTON
-        fruitPicker.dataSource = self
         fruitPicker.delegate = self
+        fruitPicker.dataSource = self
     }
     
     
